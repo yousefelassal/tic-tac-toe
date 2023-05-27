@@ -1,47 +1,23 @@
-# Astro Starter Kit: Minimal
+<div align="center">
+<a href="https://theodinproject.com/"><img src="https://github.com/yousefelassal/odin-recipes/blob/main/images/top%20logo.png?raw=true" width="300px" height="auto"></a>
+<h1>Tic Tac Toe</h1>
+<p><a href="https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript">JavaScript</a></p>
+<p><a href="https://www.theodinproject.com/lessons/node-path-javascript-tic-tac-toe">Project Requirements</a></p>
 
-```
-npm create astro@latest -- --template minimal
-```
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
-
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
-
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:3000`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+<br>
+  <h3>Tools Used</h3>
+<table>
+  <tr>
+    <th><a href="https://astro.build/">Astro</a></th>
+    <th><a href="https://tailwindcss.com/">Tailwind</a></th>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://astro.build/"><img src="https://avatars.githubusercontent.com/u/44914786?s=280&v=4" width="50px" height="50px"></a></td>
+    <td align="center"><a href="https://tailwindcss.com/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png" width="50px" height="50px"></a></td>
+  </tr>
+  <tr>
+    <td align="center">Web Framework</td>
+    <td align="center">CSS Framework</td>
+  </tr>
+</table>
+</div>
