@@ -20,4 +20,5 @@
     <td align="center">CSS Framework</td>
   </tr>
 </table>
+   <p style="color:blue">Design Credits <a href="https://www.behance.net/gallery/85650953/TicTacToe-Mini-Game">Iliana Dimitrova</a></p>
 </div>
