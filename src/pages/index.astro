@@ -3,6 +3,58 @@ import '/src/styles/global.css';
 import MainLayout from '../layouts/MainLayout.astro';
 ---
 
-<MainLayout>
-	
-</MainLayout>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Tic-Tac-Toe</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Press+Start+2P"
+      rel="stylesheet"
+      id="font"
+    />
+    <style>
+      html {
+        background: #a5a5ff;
+      }
+
+      * {
+        user-select: none;
+      }
+
+      body {
+        touch-action: pan-x pan-y;
+        height: 100vh;
+        width: 100vw;
+        overflow: hidden;
+        position: relative;
+        margin: 0;
+      }
+
+      * {
+        user-select: none;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      canvas {
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        max-height: 100vh;
+        max-width: 100vw;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <canvas id="canvas"></canvas>
+    <script src="/src/scripts/script.js"></script>
+  </body>
+</html>
